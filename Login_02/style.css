@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-image: url(images/ultra-detailed-nebula-abstract-wallpaper-4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  margin: auto;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32rem;
+  height: 40rem;
+  background-color: hsla(251, 100%, 0%, 0.5);
+  border-radius: 8px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  row-gap: 3rem;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 3.2rem;
+  color: white;
+}
+
+h1 span {
+  color: rgb(142, 216, 237);
+}
+
+.login {
+  width: 60%;
+  height: 3rem;
+  border-style: none;
+  border-bottom: 1px solid hsl(0, 0%, 100%);
+  background: transparent url(images/user-svgrepo-com.svg);
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: center;
+  opacity: 60%;
+  color: white;
+  font-size: 1.6rem;
+  outline: 0;
+  transition: 0.25s;
+}
+
+.login:hover {
+  opacity: 100%;
+  color: white;
+  outline: 0;
+}
+
+.login::placeholder {
+  opacity: 80%;
+  color: hsl(0, 0%, 100%);
+}
+
+#password {
+  background: url(images/eye-password-hide-svgrepo-com.svg);
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: center;
+}
+
+#submit {
+  width: 60%;
+  height: 3rem;
+  border-radius: 2rem;
+  border-style: none;
+  background-color: rgb(142, 216, 237);
+  color: rgb(59, 59, 59);
+  font-weight: 600;
+}
+
+@media (min-width: 768px) {
+  main {
+    margin: 0;
+    justify-content: left;
+  }
+
+  section {
+    height: 100vh;
+    width: 50%;
+  }
+
+  h1 {
+    font-size: 4.8rem;
+  }
+
+  .login {
+    width: 30rem;
+    font-size: 1.8rem;
+  }
+
+  #submit {
+    width: 20rem;
+    font-size: 1.4rem;
+  }
+}
+
+@media (min-width: 900px) {
+  section {
+    width: 35%;
+  }
+}

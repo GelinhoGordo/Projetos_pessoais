@@ -1,0 +1,279 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://images.unsplash.com/photo-1603366615917-1fa6dad5c4fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8OXx8fGVufDB8fHx8&w=1000&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+/* ==========  GENERAL CONTAINER - CONTAINER GERAL  ==========*/
+
+.contentContainer {
+    display: flex;
+    flex-direction: column;
+    max-width: 1280px;
+    margin: auto;
+    
+}
+
+/* ==========  HEADER - CABEÇALHO  ==========*/
+
+.header {
+    width: 100vw;
+    height: 50px;
+    position: relative;
+    top: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1280px;
+    margin: auto;
+    
+}
+
+/* ========== MENU AND SOCIAL MEDIAS - MENU E REDES SOCIAIS ========== */
+
+#contentMedia {
+    display: flex;
+    align-items: center;
+
+}
+
+.link {
+    margin-left: 10px;
+    font-size: 16pt;
+}
+
+#header2 {
+    margin-right: 30px;
+}
+
+.logo {
+    display: flex;
+    width: 60px;
+    
+}
+
+
+.socialMedia {
+    margin-left: 10px;
+    width: 40px;
+    border-radius: 100%;
+    background-clip: border-box;
+    background-color: white;
+}
+
+ul {
+    display: inline-block;
+}
+
+li{
+    display: inline-block;
+    
+}
+
+a {
+    color: rgb(214, 214, 214);
+    
+}
+
+/* ========== ASTRONAUT ANIMATION - ANIMAÇÃO  ========== */
+.container {
+    display: flex;
+
+    
+}
+
+@keyframes rotate {
+    from{
+        transform: translateY(20px);
+    }
+
+    
+}
+
+.image {
+    position: absolute;
+    translate: 170%;
+    animation: rotate 2s linear infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+
+
+
+img{
+    
+    width: 500px;
+}
+
+.information {
+    margin-left: 290px;
+    margin-top: 100px;
+    width: 600px;
+    color: white;
+}
+
+.paddingInformation {
+    padding-bottom: 24px;
+}
+
+.welcome {
+    font-size: 16pt;
+    
+    
+}
+
+#welcome {
+    background-image: linear-gradient(90deg, #965001, #187288 );
+    width: 350px;
+    height: 40px;
+    border: 0.1px solid rgba(255,255,255, 0.5)  ;
+    border-radius: 2px;
+}
+
+.gradient {
+    
+    padding-top: 5px;
+    text-align: center;
+    
+}
+
+.titleDev {
+    font-size: 36pt;
+}
+
+.descriptionForMe {
+    text-align: justify;
+}
+
+.skills{
+    position: relative;
+    margin-top: 100px;
+    top: 100px;
+    margin: auto;
+    width: 700px;
+    height: 350px;
+    background-color: #0d1b2a;
+    border-radius: 50px;
+    box-shadow: 1px 1px 20px 1px  rgba(255, 255, 255, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#mySkills {
+    color: white;
+    width: 500px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.titleSkills {
+    font-size: 24pt;
+}
+
+.informationSkills {
+    text-align: center;
+}
+
+.paddingSkills {
+    padding-bottom: 20px;
+}
+
+
+
+.circles {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border: 10px solid rgba(146, 146, 146, 0.1);
+    border-radius: 50%;
+    margin: 20px;
+    width: 110px;
+    height: 110px;
+    font-size: 18pt;
+    
+ }
+
+.circle {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border: 10px solid #db7500;
+    border-radius: 50%;
+    border-top: 10px solid rgba(255, 0, 0, 0);
+    margin: 20px;
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    animation: 0.25s;
+    
+}
+
+.skills{
+    position: relative;
+    margin-top: 100px;
+    top: 100px;
+    margin: auto;
+    width: 700px;
+    height: 350px;
+    background-color: #0d1b2a;
+    border-radius: 50px;
+    box-shadow: 1px 1px 20px 1px  rgba(255, 255, 255, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#mySkills {
+    color: white;
+    width: 500px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.titleSkills {
+    font-size: 24pt;
+}
+
+.informationSkills {
+    text-align: center;
+}
+
+.paddingSkills {
+    padding-bottom: 20px;
+}
+
+#skillsName {
+    display: flex;
+    width: 500px;
+    justify-content: space-around;
+
+}
+
+.html {
+    padding-left: 15px;
+}
+
+.css {
+    padding-left: 15px;
+}
+
+
+
